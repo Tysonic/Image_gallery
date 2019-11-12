@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image gallery project </title>
+    <style>
+
+    </style>
+</head>
+<body>
+<form method="post" enctype="multipart/form-data">
+    {{ form.hidden_tag() }}
+    {{ form.image.label }}{{ form.image() }}
+    {{ form.submit() }}
+</form>
+</body>
+</html>
